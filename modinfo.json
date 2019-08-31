@@ -2,18 +2,21 @@
 	"author": "Anonemous2",
 	"build": "113553",
 	"context": "client",
-	"date": "2019-8-20",
+	"date": "2019-8-31",
 	"display_name": "Real-Earth CSGs",
 	"description": "Adds in real-earth CSGs into the editor, and custom earth systems to play on. Requires the server mod to host on. Recommend that you read the forum before hosting with it:",
 	"forum": "https://forums.planetaryannihilation.com/threads/real-earth-csgs-v1-0.73409/",
 	"identifier": "com.pa.anon.earth.client",
 	"signature": "not yet implemented",
-	"version": "1.0",
+	"version": "1.0.1",
+	"dependencies": [
+		"com.pa.conundrum.cShareSystems"
+	],
 	"icon": "https://forums.planetaryannihilation.com/data/attachments/28/28262-d69cabc7a08607afeefae62ceb6a8cde.jpg",
 	"scenes": {
         "system_editor": [
 			"coui://ui/mods/com.pa.anon.earth.client/system_editor.js"
-	  ],
+	],
 		"load_planet": [
 			"coui://ui/mods/com.pa.anon.earth.client/systems.js"
 	]	},  
